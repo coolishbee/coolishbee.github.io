@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 천현철
+title: 소프트웨어 엔지니어
+email: chc3484@gmail.com
+website: chc3484.tistory.com
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
+# twitter_username: facespics
+github_username:  james-chun-dev
+stackoverflow_username: "13593441"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: jameschun17
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,17 +46,53 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  한때 머그게임에 빠져 게임프로그래머가 된 천현철입니다. 항상 새로운 기술, 새로운 트렌드에도 긍정적인 태도를 유지하고 있으며 인간관계를 중요시 하는 사람입니다. 주로 3D게임 클라이언트 개발경력이 대부분이며 현재는 Swift, Kotlin, Golang 에 관심이 많은 프로그래머입니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  현재는 <mark>게임개발용 SDK</mark>를 개발중이며, 언어는 Java, Kotlin, Objc, Swift 를 사용중입니다.
 
 content:
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Language                
+        description: | # this will include new lines to allow paragraphs
+            C, C++, C#, Android Java, Objective-C, Python, Golang, Swift, Kotlin
+
+      - layout: left
+        title: Framework/Library                
+        description: | # this will include new lines to allow paragraphs
+            <mark>C++ :</mark> STL, Win32, WinAPI, MFC, DirectX, Cocos2d-x, RideEngine, ZerodinEngine
+
+            <mark>Unity :</mark> WebRTC, NGUI, EZGUI, Prime31, GPGS, Firebase, Facebook, AmazonSDK(GameCircle, AmazonCloudMessage), Kochava, GCM, Kakao, bazaarSDK, G-Presto, Adbrix, BestHTTP, EasyAR, Vuforia
+
+            <mark>Android :</mark> NGUI, GPGS, Firebase, Facebook
+
+            <mark>iOS :</mark> NGUI, GPGS, Firebase, Facebook
+
+            <mark>Golang :</mark> NGUI, GPGS, Firebase, Facebook            
+      
+      - layout: left
+        title: Dev Tools
+        description: | # this will include new lines to allow paragraphs
+            Visual Studio, Visual Studio Code, Android Studio, X-Code, Unity Editor, Sublime Text, Hudson, Jenkins
+
+      - layout: left
+        title: Communication Tools
+        description: | # this will include new lines to allow paragraphs
+            Redmine, JIRA, Confluence, Slack, Mantis, Trello, TaskWorld, JANDI
+
+      - layout: left
+        title: Version Control System
+        description: | # this will include new lines to allow paragraphs
+            SVN, Github, Bitbucket, Gitlab, Bonobo git, Azure DevOps
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Super awesome project
         link: github.com/sproogen
         # link_text: Project Website
@@ -68,49 +104,167 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          simple unity sdk
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          - 소셜 로그인
+          - 인앱 결제
+          - 푸쉬
+          - 웹뷰
+          - 안드로이드(CustomTabView), iOS(SafariViewController)
+          - Unity Package 제공          
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
+        title: 게임펍
+        link: gamepub.co.kr
+        # link_text: boringcompany.com
+        sub_title: SDK Developer
+        caption: 2020.03 ~ 현재
+        quote: >
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Bintray</mark> <mark>Gradle</mark> <mark>Cocoapod</mark>
+        description: | # this will include new lines to allow paragraphs
+            - Java
+            - Kotlin
+            - Objc
+            - Swift
+            - Unity C#    
+
+      - layout: left
+        title: 뮤엠교육
+        link: mumenglish.com
+        # link_text: boringcompany.com
+        sub_title: Unity Developer
+        caption: 2017.09 ~ 2019.07
+        quote: >
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Gitlab</mark> <mark>BonoboGit</mark> <mark>AndroidStudio</mark> <mark>Xcode</mark>
+        description: | # this will include new lines to allow paragraphs
+            - [뮤고박스 MU:GO BOX](https://play.google.com/store/apps/details?id=com.mum.qbox&hl=ko) 앱 개발
+            - 교사용 PC 프로그램 개발(Unity Windows 플랫폼)
+            - nsis 를 이용한 배포시스템 구축
+            - 뮤고스쿨 앱 개발(유치원 내부 서비스)
+            - 에셋번들 시스템
+            - 데이터 시스템
+            - 3D 캐릭터 및 환경
+            - 카메라 시스템
+            - WebRTC 를 이용한 소환수업 개발
+            - 네트워크 시스템(HTTP, Socket, WebSocket) 연동
+      
+      - layout: left
+        title: Valofe
+        link: valofe.com        
+        sub_title: Unity Developer
+        caption: 2017.03 ~ 2017.09
+        quote: >
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Github</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>Xcode</mark> <mark>EZGUI</mark> <mark>Confluence</mark>
+        description: | # this will include new lines to allow paragraphs
+            - Google, AppStore, OneStore, WebPlayer 빌드 배포 및 서비스
+            - 대만 로컬라이징 및 신규런칭
+            - Jenkins Slave Node 를 활용한 iOS 자동빌드 구축
+            - HTTP Manager 개발
+            - 리뷰전환 시스템
+            - 결제시스템(웹뷰 상점, 빌링매니저)
+            - git branch 통합(Dev, Stage, Live)
+
+      - layout: left
+        title: YJM Games
+        link: yjmgames.com        
+        sub_title: Unity Developer
+        caption: 2016.07 ~ 2017.01
+        quote: >
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>SVN</mark> <mark>Python</mark> <mark>VS2015</mark> <mark>Xcode</mark> <mark>NGUI</mark> <mark>Mantis</mark>
+        description: | # this will include new lines to allow paragraphs
+            - Android 이란 [바자르(로컬마켓)](https://developers.cafebazaar.ir/en/) 런칭
+            - 이란 로컬라이징 및 SDK 연동
+            - Data System
+            - Jenkins 구축
+            - UI System 리팩토링
+            - 컨텐츠 개발
+            - 캐릭터툴 개발
+
+      - layout: left
+        title: Picneko Creative
+        link: www.picneko.com        
+        sub_title: Unity Developer
+        caption: 2015.04 ~ 2016.03
+        quote: >
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Github</mark> <mark>Python</mark> <mark>VisualStudio</mark> <mark>Xcode</mark> <mark>JIRA</mark> <mark>Slack</mark> <mark>Trello</mark> <mark>NGUI</mark> <mark>Prime31</mark> <mark>Sublime Text</mark>
+        description: | # this will include new lines to allow paragraphs
+            - Android, iOS 빌드배포 및 서비스(워스토리, 킹덤스토리)
+            - 컨텐츠 개발
+            - SDK 연동
+            - 텍스쳐 최적화
+            - 툴 개발
+
+      - layout: left
+        title: BH Games
         link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Global localization
+        caption: 2013.08 ~ 2014.08
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>ZerodinEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>VS2008</mark> <mark>IOCP</mark>
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - 국내 라이브, 태국 서비스 런칭
+            - 잭팟 시스템, 1:1pvp, 아이템 교환
+            - 태국 로컬라이징
+            - 패치 시스템
+            - 툴 개발 및 유지보수
+        
+      - layout: left
+        title: L&K Logic Korea
+        link: logickorea.co.kr        
+        sub_title: Clinet Programmer
+        caption: 2012.03 ~ 2013.05
+        quote: >
+          <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>RideEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Gantt</mark> <mark>VS2008</mark> <mark>IOCP</mark>
+        description: | # this will include new lines to allow paragraphs
+            - Tooltip, Skill UI, 시스템옵션
+            - UI Engine 개선
+            - Drop Item 개발
+            - Actor, Player, NPC 관리 및 개선
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
+        title: 게임스쿨
         caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        sub_title: 게임프로그래밍 교육 1년과정 수료
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          프로그래밍 기초 및 게임개발에 필요한 교육과정
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - C, C++, WinAPI, MFC, TCP/IP
+          - DirectX 3D, 일리히트엔진, 유니티3, cocos2dx
+      
+      - layout: left
+        title: 극동대학교
+        caption: 2010 - 2013
+        sub_title: 게임소프트웨어 학과(졸업)
+        quote: >
+          프로그래밍 기초 및 게임개발에 필요한 교육과정
+        description: | # this will include new lines to allow paragraphs
+          - 자료구조, 알고리즘
+          - C, C++, C#
+          - 네트워크
+          - 그래픽스
+          - 게임시나리오, 기획
+          - 아이폰(objc) 2D 디펜스게임(졸업작품)
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  #     Look at this cool image  
+  #     ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
