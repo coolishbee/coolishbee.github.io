@@ -9,14 +9,14 @@ version: 2
 name: 천현철
 title: 소프트웨어 엔지니어
 email: chc3484@gmail.com
-website: chc3484.tistory.com
+website: velog.io/@james-chun-dev
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  james-chun-dev
+github_username:  jameschun7
 stackoverflow_username: "13593441"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -68,16 +68,16 @@ content:
 
             <mark>Unity :</mark> WebRTC, NGUI, EZGUI, Prime31, GPGS, Firebase, Facebook, AmazonSDK(GameCircle, AmazonCloudMessage), Kochava, GCM, Kakao, bazaarSDK, G-Presto, Adbrix, BestHTTP, EasyAR, Vuforia
 
-            <mark>Android :</mark> NGUI, GPGS, Firebase, Facebook
+            <mark>Android :</mark> Retrofit2, Firebase, GoogleSignIn, Facebook, Gson, ButterKnife, Google Billing Library, RxJava, RxKotlin, Gradle, Jcenter, Bintray, MVP, MVVM, MVC, Glide, Dagger, FCM, AppleLogin, Realm, Sqlite, ExoPlayer, Coroutine, AAC, DataBinding, Drm, LeanBack UI, UI Animation
 
-            <mark>iOS :</mark> NGUI, GPGS, Firebase, Facebook
+            <mark>iOS :</mark> AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, InAppPurchase, PushNotification, Cocoapod, RxSwift, Combine, MVVM, VIPER, Realm, Sqlite, Alamofire, Lottie
 
-            <mark>Golang :</mark> NGUI, GPGS, Firebase, Facebook            
+            <mark>Golang :</mark> gin, fyne, goquery
       
       - layout: left
         title: Dev Tools
         description: | # this will include new lines to allow paragraphs
-            Visual Studio, Visual Studio Code, Android Studio, X-Code, Unity Editor, Sublime Text, Hudson, Jenkins
+            Visual Studio, Visual Studio Code, Android Studio, X-Code, Unity Engine, Sublime Text, Hudson, Jenkins, fastlane
 
       - layout: left
         title: Communication Tools
@@ -111,7 +111,28 @@ content:
           - 푸쉬
           - 웹뷰
           - 안드로이드(CustomTabView), iOS(SafariViewController)
-          - Unity Package 제공          
+          - Unity Package 제공
+      
+      - layout: left
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          위치기반서비스 어플리케이션
+        description: | # this will include new lines to allow paragraphs
+          - 소셜 로그인
+          - 인앱 결제
+          - 푸쉬
+          - 웹뷰
+          - 안드로이드(CustomTabView), iOS(SafariViewController)
+          - Unity Package 제공
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -206,7 +227,7 @@ content:
         quote: >
           <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>ZerodinEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>VS2008</mark> <mark>IOCP</mark>
         description: | # this will include new lines to allow paragraphs
-            - 국내 라이브, 태국 서비스 런칭
+            - 불패온라인 국내 라이브, 태국 서비스 런칭
             - 잭팟 시스템, 1:1pvp, 아이템 교환
             - 태국 로컬라이징
             - 패치 시스템
@@ -220,6 +241,7 @@ content:
         quote: >
           <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>RideEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Gantt</mark> <mark>VS2008</mark> <mark>IOCP</mark>
         description: | # this will include new lines to allow paragraphs
+            - 붉은보석2 온라인 신규개발
             - Tooltip, Skill UI, 시스템옵션
             - UI Engine 개선
             - Drop Item 개발
