@@ -206,7 +206,7 @@ content:
 
       - layout: left
         title: Picneko Creative
-        link: www.picneko.com        
+        link: www.softnyx.co.kr
         sub_title: Unity Developer
         caption: 2015.04 ~ 2016.03
         quote: >
@@ -219,9 +219,7 @@ content:
             - 툴 개발
 
       - layout: left
-        title: BH Games
-        link: boringcompany.com
-        # link_text: boringcompany.com
+        title: BH Games        
         sub_title: Global localization
         caption: 2013.08 ~ 2014.08
         quote: >
