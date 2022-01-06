@@ -50,7 +50,7 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   한때 머그게임에 빠져 게임프로그래머가 된 천현철입니다. 항상 새로운 기술, 새로운 트렌드에도 긍정적인 태도를 유지하고 있으며 인간관계를 중요시 하는 사람입니다. 주로 3D게임 클라이언트 개발경력이 대부분이며 현재는 Swift, Kotlin, Golang 에 관심이 많은 프로그래머입니다.
 
-  현재는 <mark>게임개발용 SDK</mark>를 개발중이며, 언어는 Java, Kotlin, Objc, Swift 를 사용중입니다.
+  현재는 <mark>Android, iOS, Unity SDK</mark>를 개발중이며, 언어는 Java, Kotlin, Objc, Swift, C# 를 사용중입니다.
 
 content:
   - title: Skills # Title for the section
@@ -64,15 +64,15 @@ content:
       - layout: left
         title: Framework/Library                
         description: | # this will include new lines to allow paragraphs
-            <mark>C++ :</mark> STL, Win32, WinAPI, MFC, DirectX, Cocos2d-x, RideEngine, ZerodinEngine
+            <mark>C++ :</mark> STL, Win32, WinAPI, MFC, DirectX, [Cocos2d-x](https://github.com/cocos2d/cocos2d-x), RideEngine, ZerodinEngine
 
             <mark>Unity :</mark> WebRTC, NGUI, EZGUI, Prime31, GPGS, Firebase, Facebook, AmazonSDK(GameCircle, AmazonCloudMessage), Kochava, GCM, Kakao, bazaarSDK, G-Presto, Adbrix, BestHTTP, EasyAR, Vuforia
 
-            <mark>Android :</mark> Retrofit2, Firebase, GoogleSignIn, Facebook, Gson, ButterKnife, Google Billing Library, RxJava, RxKotlin, Gradle, Jcenter, Bintray, MVP, MVVM, MVC, Glide, Dagger, FCM, AppleLogin, Realm, Sqlite, ExoPlayer, Coroutine, AAC, DataBinding, Drm, LeanBack UI, UI Animation
+            <mark>Android :</mark> Retrofit2, Firebase, GoogleSignIn, Facebook, Gson, ButterKnife, Google Billing Library, Gradle, Glide, FCM, AppleLogin, Coroutine, DataBinding
 
-            <mark>iOS :</mark> AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, InAppPurchase, PushNotification, Cocoapod, RxSwift, Combine, MVVM, VIPER, Realm, Sqlite, Alamofire, Lottie
+            <mark>iOS :</mark> AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, InAppPurchase, PushNotification, Cocoapod, Combine, Alamofire
 
-            <mark>Golang :</mark> gin, fyne, goquery
+            <mark>Golang :</mark> [gin](https://github.com/gin-gonic/gin), [fyne](https://github.com/fyne-io/fyne), goquery
       
       - layout: left
         title: Dev Tools
@@ -89,47 +89,56 @@ content:
         description: | # this will include new lines to allow paragraphs
             SVN, Github, Bitbucket, Gitlab, Bonobo git, Azure DevOps
 
-  - title: Projects # Title for the section
+  - title: Open-source # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Super awesome project
-        link: github.com/sproogen
-        link_text: Project Website
-        # additional_links:          
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: Universal SDK Unity
+        link: github.com/jameschun7/universal-sdk-unity
+        # link_text: AssetStore
+        additional_links:          
+          - title: jameschun7/universal-sdk-unity-demo
+            icon: fab fa-github
+            url: github.com/jameschun7/universal-sdk-unity-demo
         quote: >
-          simple unity sdk
+          로그인, 결제, 푸쉬 등 외부 라이브러리들을 통합한 유니티엔진용 SDK
         description: | # this will include new lines to allow paragraphs
           - 소셜 로그인
           - 인앱 결제
           - 푸쉬
           - 웹뷰
           - 안드로이드(CustomTabView), iOS(SafariViewController)
-          - Unity Package 제공
+          - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)
+          - [Universal SDK Android (Java)](https://github.com/jameschun7/universal-sdk-android)
+          - [Universal SDK Android (Kotlin)](https://github.com/jameschun7/universal-sdk-android-kotlin)
+          - [Universal SDK iOS (Objc)](https://github.com/jameschun7/universal-sdk-ios-objc)
+          - [Universal SDK iOS (Swift)](https://github.com/jameschun7/universal-sdk-ios-swift)
+          - [Universal SDK Unity Wrapper](https://github.com/jameschun7/universal-sdk-unitywrapper)
       
       - layout: left
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: iOS 앱
+        link: github.com/jameschun7/        
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  jameschun7/
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: github.com/jameschun7/
         quote: >
-          위치기반서비스 어플리케이션
+          Swift 앱
         description: | # this will include new lines to allow paragraphs
-          - 소셜 로그인
-          - 인앱 결제
-          - 푸쉬
-          - 웹뷰
-          - 안드로이드(CustomTabView), iOS(SafariViewController)
-          - Unity Package 제공
+          - 테스트
+      
+      - layout: left
+        title: go framework
+        link: github.com/jameschun7/        
+        additional_links:
+          - title:  jameschun7/
+            icon: fab fa-github
+            url: github.com/jameschun7/
+        quote: >
+          golang
+        description: | # this will include new lines to allow paragraphs
+          - 마케팅 툴
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -141,13 +150,18 @@ content:
         sub_title: SDK Developer
         caption: 2020.03 ~ 현재
         quote: >
-          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Bintray</mark> <mark>Gradle</mark> <mark>Cocoapod</mark>
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark>
         description: | # this will include new lines to allow paragraphs
-            - Java
-            - Kotlin
-            - Objc
-            - Swift
-            - Unity C#    
+            - Android SDK 개발
+            - iOS SDK 개발
+            - Unity SDK 개발
+            - 소셜 로그인(Google, Facebook, Apple)
+            - 인앱 결제(Google, Apple, OneStore)
+            - Push(FCM, APNS)
+            - Rest API 연동([Retrofit2 + Coroutine](), [Alamofire + Combine]())
+            - [Unity Package Export Tool]()
+            - [fastlane 과 젠킨스를 이용한 SDK 배포 자동화](https://github.com/jameschun7/docs/blob/main/ci/jenkins-usage.md)
+            - [Unity Editor 를 활용한 빌드머신(feat. shell)]()
 
       - layout: left
         title: 뮤엠교육
@@ -178,11 +192,11 @@ content:
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Github</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>Xcode</mark> <mark>EZGUI</mark> <mark>Confluence</mark>
         description: | # this will include new lines to allow paragraphs
             - Google, AppStore, OneStore, WebPlayer 빌드 배포 및 서비스
-            - 대만 로컬라이징 및 신규런칭
-            - Jenkins Slave Node 를 활용한 iOS 자동빌드 구축
+            - 대만 로컬라이징 및 신규런칭(마이카드 연동)
+            - Jenkins Slave Node 를 활용한 유니티iOS 빌드 자동화 구축
             - HTTP Manager 개발
-            - 리뷰전환 시스템
-            - 결제시스템(웹뷰 상점, 빌링매니저)
+            - 리뷰서버 전환 시스템(iOS 검수전용)
+            - 결제 시스템(웹뷰 상점, 빌링매니저)
             - git branch 통합(Dev, Stage, Live)
 
       - layout: left
@@ -196,7 +210,7 @@ content:
             - Android 이란 [바자르(로컬마켓)](https://developers.cafebazaar.ir/en/) 런칭
             - 이란 로컬라이징 및 SDK 연동
             - Data System
-            - Jenkins 구축
+            - Jenkins 를 이용한 유니티 빌드 자동화 구축
             - UI System 리팩토링
             - 컨텐츠 개발
             - 캐릭터툴 개발
@@ -223,7 +237,7 @@ content:
           <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>ZerodinEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>VS2008</mark> <mark>IOCP</mark>
         description: | # this will include new lines to allow paragraphs
             - 불패온라인 국내 라이브, 태국 서비스 런칭
-            - 잭팟 시스템, 1:1pvp, 아이템 교환
+            - 잭팟 시스템, 1:1 pvp 시스템, 아이템 교환시스템
             - 태국 로컬라이징
             - 패치 시스템
             - 툴 개발 및 유지보수
@@ -254,14 +268,14 @@ content:
           프로그래밍 기초 및 게임개발에 필요한 교육과정
         description: | # this will include new lines to allow paragraphs
           - C, C++, WinAPI, MFC, TCP/IP
-          - DirectX 3D, 일리히트엔진, 유니티3, cocos2dx
+          - DirectX 3D, 일리히트엔진, 유니티3, [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
       
       - layout: left
         title: 극동대학교
         caption: 2010 - 2013
         sub_title: 게임소프트웨어 학과(졸업)
         quote: >
-          프로그래밍 기초 및 게임개발에 필요한 교육과정
+          프로그래밍 기초 및 졸업작품
         description: | # this will include new lines to allow paragraphs
           - 자료구조, 알고리즘
           - C, C++, C#
