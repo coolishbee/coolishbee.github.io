@@ -47,10 +47,10 @@ instagram_username: jameschun17
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.png
-about_content: | # this will include new lines to allow paragraphs
-  한때 머그게임에 빠져 게임프로그래머가 된 천현철입니다. 항상 새로운 기술, 새로운 트렌드에도 긍정적인 태도를 유지하고 있으며 인간관계를 중요시 하는 사람입니다. 주로 3D게임 클라이언트 개발경력이 대부분이며 현재는 Swift, Kotlin, Golang 에 관심이 많은 프로그래머입니다.
-
-  현재는 <mark>Android, iOS, Unity SDK</mark>를 개발중이며, 언어는 Java, Kotlin, Objc, Swift, C# 를 사용중입니다.
+about_content: | # this will include new lines to allow paragraphs  
+  11년 차 개발자로 PC/모바일 게임 개발과 Android/iOS/Unity SDK 개발을 해왔습니다. 현재는 <mark>Android, iOS, Unity SDK</mark>를 개발 중이며, 언어는 Java, Kotlin, Objc, Swift, C# 를 사용하고 있습니다.
+  
+  평소 일상생활에서도 개발에 관련해서 고민하고 사용자의 불편함을 개선하는 것을 좋아합니다. 그리고 항상 새로운 기술, 새로운 트렌드를 즐기고 있으며 팀 협업과 커뮤니케이션을 중요하게 생각하는 사람입니다.
 
 content:
   - title: Skills # Title for the section
@@ -68,7 +68,7 @@ content:
 
             <mark>Unity :</mark> WebRTC, NGUI, EZGUI, Prime31, GPGS, Firebase, Facebook, AmazonSDK(GameCircle, AmazonCloudMessage), Kochava, GCM, Kakao, bazaarSDK, G-Presto, Adbrix, BestHTTP, EasyAR, Vuforia
 
-            <mark>Android :</mark> Retrofit2, Firebase, GoogleSignIn, Facebook, Gson, ButterKnife, Google Billing Library, Gradle, Glide, FCM, AppleLogin, Coroutine, DataBinding
+            <mark>Android :</mark> Retrofit2, Firebase, GoogleSignIn, Facebook, Gson, ButterKnife, Google Billing Library, Jcenter, Maven, Gradle, Glide, FCM, AppleLogin, Coroutine, DataBinding
 
             <mark>iOS :</mark> AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, InAppPurchase, PushNotification, Cocoapod, Combine, Alamofire
 
@@ -103,17 +103,15 @@ content:
         quote: >
           로그인, 결제, 푸쉬 등 외부 라이브러리들을 통합한 유니티엔진용 SDK
         description: | # this will include new lines to allow paragraphs
-          - 소셜 로그인
-          - 인앱 결제
-          - 푸쉬
-          - 웹뷰
+          - 소셜 로그인(Google, Facebook, Apple)
+          - 인앱 결제(Google, Apple)
+          - Push(FCM, APNS)          
           - 안드로이드(CustomTabView), iOS(SafariViewController)
           - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)
           - [Universal SDK Android (Java)](https://github.com/jameschun7/universal-sdk-android)
           - [Universal SDK Android (Kotlin)](https://github.com/jameschun7/universal-sdk-android-kotlin)
           - [Universal SDK iOS (Objc)](https://github.com/jameschun7/universal-sdk-ios-objc)
-          - [Universal SDK iOS (Swift)](https://github.com/jameschun7/universal-sdk-ios-swift)
-          - [Universal SDK Unity Wrapper](https://github.com/jameschun7/universal-sdk-unitywrapper)
+          - [Universal SDK iOS (Swift)](https://github.com/jameschun7/universal-sdk-ios-swift)          
       
       - layout: left
         title: iOS 앱
@@ -158,10 +156,49 @@ content:
             - 소셜 로그인(Google, Facebook, Apple)
             - 인앱 결제(Google, Apple, OneStore)
             - Push(FCM, APNS)
-            - Rest API 연동([Retrofit2 + Coroutine](), [Alamofire + Combine]())
-            - [Unity Package Export Tool]()
-            - [fastlane 과 젠킨스를 이용한 SDK 배포 자동화](https://github.com/jameschun7/docs/blob/main/ci/jenkins-usage.md)
+            - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/jameschun7/retrofit2-coroutine-example), [Alamofire + Combine]())
+            - [Unity Package Export Tool](https://github.com/jameschun7/unity-export-package-tool)
+            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://github.com/jameschun7/docs/blob/main/ci/jenkins-usage.md)
             - [Unity Editor 를 활용한 빌드머신(feat. shell)]()
+            - [Android SDK Jcenter 배포](https://github.com/jameschun7/docs/blob/main/android/jcenter.md)
+            - [Android SDK Maven 배포](https://github.com/jameschun7/docs/blob/main/android/maven-deploy.md)
+            - [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)
+
+      - layout: left
+        title: 프리랜서
+        link: https://youtu.be/1voJ_RI_h1k
+        sub_title: Software Engineer
+        caption: 2019.10 ~ 2020.01
+        quote: >        
+          5G 기반 자율주행 무인 경비로봇 원격제어 솔루션 개발
+        description: | # this will include new lines to allow paragraphs            
+            <mark>custom opencv sdk 플러그인 개발</mark>
+            - opencv dll 프로젝트에 연동
+            - c++, c# 간에 통신하는 Interface 및 Data Convert 설계 및 개발            
+            - 테스트용 c# winform 툴 개발(유니티에서 사용하기전 API TEST)            
+            - c++ 쓰레드 구현.
+            - opencv API 를 활용한 영상 스트리밍 시스템 구현.
+
+            <mark>유니티 카메라뷰 프로그램</mark>
+            - GUI(다중 모니터 활성화를 위한 UGUI Canvas 작업)
+            - 소켓 통신 클라이언트 개발
+            - custom opencv sdk 플러그인 연동
+            - 영상 스트리밍 시스템
+            - 다중 모니터 활성화 기능 구현
+
+            <mark>유니티 로봇체험 프로그램</mark>
+            - GUI(HUD)
+            - 소켓 통신 클라이언트 개발
+            - HTC VIVE SDK 연동
+            - User Controller
+            - custom opencv sdk 플러그인 연동
+            - 영상 스트리밍 시스템
+            - 360카메라 스트리밍 연동
+
+            <mark>유니티 시스템제어 프로그램</mark>
+            - GUI(미니맵 및 로봇상태, 로그 출력)
+            - 소켓 통신 클라이언트 개발
+            - google map static api 연동
 
       - layout: left
         title: 뮤엠교육
@@ -172,15 +209,17 @@ content:
         quote: >
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Gitlab</mark> <mark>BonoboGit</mark> <mark>AndroidStudio</mark> <mark>Xcode</mark>
         description: | # this will include new lines to allow paragraphs
-            - [뮤고박스 MU:GO BOX](https://play.google.com/store/apps/details?id=com.mum.qbox&hl=ko) 앱 개발
-            - 교사용 PC 프로그램 개발(Unity Windows 플랫폼)
-            - nsis 를 이용한 배포시스템 구축
-            - 뮤고스쿨 앱 개발(유치원 내부 서비스)
+            - [뮤고박스 MU:GO BOX](https://play.google.com/store/apps/details?id=com.mum.qbox&hl=ko) 유니티 안드로이드 앱 개발            
+            - 뮤고박스 교사용 PC 프로그램 개발(Unity Standalone)
+            - [뮤고스쿨](https://youtu.be/jfDnUqAfB7w) 유니티 안드로이드 앱 개발(유치원 내부 서비스)
+            - 뮤고스쿨 교사용 PC 프로그램 유지보수(c# winform 및 Unity Standalone)
+            - [nsis](https://nsis.sourceforge.io) 를 이용한 PC 교사용 프로그램 배포시스템 구축
+            - Jenkins 를 이용한 apk 및 에셋번들 빌드 자동화
             - 에셋번들 시스템
             - 데이터 시스템
             - 3D 캐릭터 및 환경
             - 카메라 시스템
-            - WebRTC 를 이용한 소환수업 개발
+            - [WebRTC](https://because-why-not.com/webrtc/) 를 이용한 소환수업 개발
             - 네트워크 시스템(HTTP, Socket, WebSocket) 연동
       
       - layout: left
@@ -224,8 +263,11 @@ content:
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Github</mark> <mark>Python</mark> <mark>VisualStudio</mark> <mark>Xcode</mark> <mark>JIRA</mark> <mark>Slack</mark> <mark>Trello</mark> <mark>NGUI</mark> <mark>Prime31</mark> <mark>Sublime Text</mark>
         description: | # this will include new lines to allow paragraphs
             - Android, iOS 빌드배포 및 서비스(워스토리, 킹덤스토리)
+            - Hudson 빌드시스템 유지보수 및 Jenkins 를 이용한 에셋번들 빌드 자동화
+            - Python으로 dSYM 파일서버로 업로드 스크립트 개발
             - 컨텐츠 개발
-            - SDK 연동
+            - SDK 연동([Kochava](https://www.kochava.com), [Amazon Appstore](https://developer.amazon.com/docs/cross-platform-plugins/cpp-use-appstore-sdk-unity.html), [Amazon In-App Purchasing](https://developer.amazon.com/docs/in-app-purchasing/iap-overview.html), [Adm](https://developer.amazon.com/docs/adm/overview.html), [Amazon Game Circle](https://developer.amazon.com/docs/gamecircle/faq-gamecircle.html), Facebook, GPGS)
+            - 워스토리 호주, 북미 출시(Android, iOS, Amazon)
             - 텍스쳐 최적화
             - 툴 개발
 
@@ -245,7 +287,7 @@ content:
       - layout: left
         title: L&K Logic Korea
         link: logickorea.co.kr        
-        sub_title: Clinet Programmer
+        sub_title: Client Programmer
         caption: 2012.03 ~ 2013.05
         quote: >
           <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>RideEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Gantt</mark> <mark>VS2008</mark> <mark>IOCP</mark>
