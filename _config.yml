@@ -16,12 +16,12 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  jameschun7
+github_username:  coolishbee
 # stackoverflow_username: "13593441"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameschun17
+instagram_username: james_cheon7
 # linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -72,7 +72,7 @@ content:
 
             <mark>iOS :</mark> AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, InAppPurchase, PushNotification, Cocoapod, Combine, Alamofire
 
-            <mark>Golang :</mark> [gin](https://github.com/gin-gonic/gin), [fyne](https://github.com/fyne-io/fyne), goquery
+            <mark>Golang :</mark> [gin](https://github.com/gin-gonic/gin), [fyne](https://github.com/fyne-io/fyne), goquery, gorm
       
       - layout: left
         title: Dev Tools
@@ -94,12 +94,12 @@ content:
     content:
       - layout: left
         title: Universal SDK Unity
-        link: github.com/jameschun7/universal-sdk-unity
+        link: github.com/coolishbee/universal-sdk-unity
         # link_text: AssetStore
         additional_links:          
-          - title: jameschun7/universal-sdk-unity-demo
+          - title: coolishbee/universal-sdk-unity-demo
             icon: fab fa-github
-            url: github.com/jameschun7/universal-sdk-unity-demo
+            url: github.com/coolishbee/universal-sdk-unity-demo
         quote: >
           로그인, 결제, 푸쉬 등 외부 라이브러리들을 통합한 유니티엔진용 SDK
         description: | # this will include new lines to allow paragraphs
@@ -107,35 +107,37 @@ content:
           - 인앱 결제(Google, Apple)
           - Push(FCM, APNS)          
           - 안드로이드(CustomTabView), iOS(SafariViewController)
-          - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)
-          - [Universal SDK Android (Java)](https://github.com/jameschun7/universal-sdk-android)
-          - [Universal SDK Android (Kotlin)](https://github.com/jameschun7/universal-sdk-android-kotlin)
-          - [Universal SDK iOS (Objc)](https://github.com/jameschun7/universal-sdk-ios-objc)
-          - [Universal SDK iOS (Swift)](https://github.com/jameschun7/universal-sdk-ios-swift)          
+          - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)          
+          - [Universal SDK Android](https://github.com/coolishbee/universal-sdk-android-kotlin)          
+          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios-swift)          
       
       - layout: left
-        title: iOS 앱
-        link: github.com/jameschun7/        
+        title: iOS 유튜브 클론
+        link: github.com/coolishbee/youtube-channel-filter-ios
         additional_links:
-          - title:  jameschun7/
+          - title:  coolishbee/
             icon: fab fa-github
-            url: github.com/jameschun7/
+            url: github.com/coolishbee/
         quote: >
-          Swift 앱
+          Swift + 스토리보드 + xib
         description: | # this will include new lines to allow paragraphs
-          - 테스트
+          - Youtube API 연동
+          - RealmSwift 연동
       
       - layout: left
-        title: go framework
-        link: github.com/jameschun7/        
+        title: go 백엔드 프레임워크
+        link: github.com/coolishbee/go-gin-sample
         additional_links:
-          - title:  jameschun7/
+          - title:  coolishbee/
             icon: fab fa-github
-            url: github.com/jameschun7/
+            url: github.com/coolishbee/
         quote: >
-          golang
+          golang + gin + swagger + mariadb sample
         description: | # this will include new lines to allow paragraphs
-          - 마케팅 툴
+          - RESTful API
+          - 소셜 로그인 token 백엔드 검증(구글, 페북, 애플)
+          - Logging
+          - Swagger 제공
 
 
   - title: Experience # Title for the section
@@ -156,19 +158,19 @@ content:
             - 소셜 로그인(Google, Facebook, Apple)
             - 인앱 결제(Google, Apple, OneStore)
             - Push(FCM, APNS)
-            - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/jameschun7/retrofit2-coroutine-example), [Alamofire + Combine]())
-            - [Unity Package Export Tool](https://github.com/jameschun7/unity-export-package-tool)
-            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://github.com/jameschun7/docs/blob/main/ci/jenkins-usage.md)
-            - [Unity Editor 를 활용한 빌드머신(feat. shell)]()
-            - [Android SDK Jcenter 배포](https://github.com/jameschun7/docs/blob/main/android/jcenter.md)
-            - [Android SDK Maven 배포](https://github.com/jameschun7/docs/blob/main/android/maven-deploy.md)
+            - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire + Combine](https://github.com/coolishbee/AlamofireExample))
+            - [Unity Package Export Tool](https://github.com/coolishbee/unity-export-package-tool)
+            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://github.com/coolishbee/docs/blob/main/ci/jenkins-usage.md)
+            - [Unity Editor 를 활용한 빌드머신(feat. shell)](https://github.com/coolishbee/docs/blob/main/unity/unity-build-machine-shell.md)
+            - [Android SDK Jcenter 배포](https://github.com/coolishbee/docs/blob/main/android/jcenter.md)
+            - [Android SDK Maven 배포(Sonatype 을 통한 배포)](https://github.com/coolishbee/docs/blob/main/android/maven-deploy.md)
             - [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)
 
       - layout: left
         title: 프리랜서
         link: https://youtu.be/1voJ_RI_h1k
         sub_title: Software Engineer
-        caption: 2019.10 ~ 2020.01
+        caption: 2019.11 ~ 2020.01
         quote: >        
           5G 기반 자율주행 무인 경비로봇 원격제어 솔루션 개발
         description: | # this will include new lines to allow paragraphs            
@@ -294,10 +296,10 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 붉은보석2 온라인 신규개발
             - Tooltip, Skill UI, 시스템옵션
-            - UI Engine 개선
+            - UI Engine 및 Tool 개선
             - Drop Item 개발
             - Actor, Player, NPC 관리 및 개선
-
+            - 플레이어 이동 동기화
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
