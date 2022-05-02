@@ -191,7 +191,6 @@ content:
             <mark>유니티 로봇체험 프로그램</mark>
             - GUI(HUD)
             - 소켓 통신 클라이언트 개발
-            - HTC VIVE SDK 연동
             - User Controller
             - custom opencv sdk 플러그인 연동
             - 영상 스트리밍 시스템
@@ -213,7 +212,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             - [뮤고박스 MU:GO BOX](https://play.google.com/store/apps/details?id=com.mum.qbox&hl=ko) 유니티 안드로이드 앱 개발            
             - 뮤고박스 교사용 PC 프로그램 개발(Unity Standalone)
-            - [뮤고스쿨](https://youtu.be/jfDnUqAfB7w) 유니티 안드로이드 앱 개발(유치원 내부 서비스)
+            - [뮤고스쿨](https://youtu.be/jfDnUqAfB7w) 안드로이드 네이티브 앱 및 유니티 안드로이드 앱 개발(유치원 내부 서비스)
             - 뮤고스쿨 교사용 PC 프로그램 유지보수(c# winform 및 Unity Standalone)
             - [nsis](https://nsis.sourceforge.io) 를 이용한 PC 교사용 프로그램 배포시스템 구축
             - Jenkins 를 이용한 apk 및 에셋번들 빌드 자동화
