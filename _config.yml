@@ -59,20 +59,20 @@ content:
       - layout: left
         title: Language                
         description: | # this will include new lines to allow paragraphs
-            C, C++, C#, Android Java, Objective-C, Python, Golang, Swift, Kotlin
+            C, C++, C#, Objective-C, Golang, Swift, Kotlin
 
       - layout: left
         title: Framework/Library                
         description: | # this will include new lines to allow paragraphs
             <mark>C++ :</mark> STL, Win32, WinAPI, MFC, DirectX, [Cocos2d-x](https://github.com/cocos2d/cocos2d-x), RideEngine, ZerodinEngine
 
-            <mark>Unity :</mark> WebRTC, NGUI, EZGUI, Prime31, GPGS, Firebase, Facebook, AmazonSDK(GameCircle, AmazonCloudMessage), Kochava, GCM, Kakao, bazaarSDK, G-Presto, Adbrix, BestHTTP, EasyAR, Vuforia
+            <mark>Unity :</mark> WebRTC, NGUI, EZGUI, Prime31, GPGS, Firebase, Facebook, AmazonSDK(GameCircle, AmazonCloudMessage), Kochava, GCM, Kakao, bazaarSDK, G-Presto, Adbrix, BestHTTP, EasyAR, Vuforia, Sqlite
 
-            <mark>Android :</mark> Retrofit2, Firebase, GoogleSignIn, Facebook, Gson, ButterKnife, Google Billing Library, Jcenter, Maven, Gradle, Glide, FCM, AppleLogin, Coroutine, DataBinding
+            <mark>Android :</mark> Retrofit2, Firebase, GoogleSignIn, Facebook, Gson, ButterKnife, Google Billing Library, Jcenter, Maven, Gradle, Glide, FCM, AppleLogin, Coroutine, DataBinding, Proguard, [acra](https://github.com/ACRA/acra)
 
-            <mark>iOS :</mark> AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, InAppPurchase, PushNotification, Cocoapod, Combine, Alamofire
+            <mark>iOS :</mark> AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, Storekit, APNS, Cocoapod, Combine, Alamofire, SwiftUI, XCTest, SPM, Carthage, CoreData, Realm, [plcrashreporter](https://github.com/microsoft/plcrashreporter)
 
-            <mark>Golang :</mark> [gin](https://github.com/gin-gonic/gin), [fyne](https://github.com/fyne-io/fyne), goquery, gorm
+            <mark>Golang :</mark> [gin](https://github.com/gin-gonic/gin), [fyne](https://github.com/fyne-io/fyne), goquery, gorm, redigo
       
       - layout: left
         title: Dev Tools
@@ -96,7 +96,7 @@ content:
         title: Universal SDK Unity
         link: github.com/coolishbee/universal-sdk-unity
         # link_text: AssetStore
-        additional_links:          
+        additional_links:
           - title: coolishbee/universal-sdk-unity-demo
             icon: fab fa-github
             url: github.com/coolishbee/universal-sdk-unity-demo
@@ -105,24 +105,37 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 소셜 로그인(Google, Facebook, Apple)
           - 인앱 결제(Google, Apple)
-          - Push(FCM, APNS)          
+          - Push(FCM, APNS)
           - 안드로이드(CustomTabView), iOS(SafariViewController)
           - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)          
           - [Universal SDK Android](https://github.com/coolishbee/universal-sdk-android-kotlin)          
-          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios-swift)          
+          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios-swift)      
       
       - layout: left
-        title: iOS 유튜브 클론
+        title: iOS 유튜브 영상 검색 앱
         link: github.com/coolishbee/youtube-channel-filter-ios
         additional_links:
           - title:  coolishbee/
             icon: fab fa-github
-            url: github.com/coolishbee/
+            url: github.com/coolishbee/youtube-channel-filter-ios
         quote: >
           Swift + 스토리보드 + xib
         description: | # this will include new lines to allow paragraphs
           - Youtube API 연동
-          - RealmSwift 연동
+          - RealmSwift 연동          
+      
+      - layout: left
+        title: iOS IT회사 정보 검색 앱
+        link: github.com/coolishbee/company-scanner-ios
+        additional_links:
+          - title:  coolishbee/
+            icon: fab fa-github
+            url: github.com/coolishbee/company-scanner-ios
+        quote: >
+          SwiftUI + MapKit + MVVM
+        description: | # this will include new lines to allow paragraphs
+          - MapKit API 연동
+          - CoreData 연동
       
       - layout: left
         title: go 백엔드 프레임워크
@@ -130,7 +143,7 @@ content:
         additional_links:
           - title:  coolishbee/
             icon: fab fa-github
-            url: github.com/coolishbee/
+            url: github.com/coolishbee/go-gin-sample
         quote: >
           golang + gin + swagger + mariadb sample
         description: | # this will include new lines to allow paragraphs
@@ -150,7 +163,7 @@ content:
         sub_title: SDK Developer
         caption: 2020.03 ~ 현재
         quote: >
-          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark>
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark> <mark>Fastlane</mark>
         description: | # this will include new lines to allow paragraphs
             - Android SDK 개발
             - iOS SDK 개발
@@ -158,7 +171,7 @@ content:
             - 소셜 로그인(Google, Facebook, Apple)
             - 인앱 결제(Google, Apple, OneStore)
             - Push(FCM, APNS)
-            - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire + Combine](https://github.com/coolishbee/AlamofireExample))
+            - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample))
             - [Unity Package Export Tool](https://github.com/coolishbee/unity-export-package-tool)
             - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://github.com/coolishbee/docs/blob/main/ci/jenkins-usage.md)
             - [Unity Editor 를 활용한 빌드머신(feat. shell)](https://github.com/coolishbee/docs/blob/main/unity/unity-build-machine-shell.md)
