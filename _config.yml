@@ -70,7 +70,7 @@ content:
 
             <mark>Android :</mark> Retrofit2, Firebase, GoogleSignIn, Facebook, Gson, ButterKnife, Google Billing Library, Jcenter, Maven, Gradle, Glide, FCM, AppleLogin, Coroutine, DataBinding, Proguard, [acra](https://github.com/ACRA/acra)
 
-            <mark>iOS :</mark> AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, Storekit, APNS, Cocoapod, Combine, Alamofire, SwiftUI, XCTest, SPM, Carthage, CoreData, Realm, [plcrashreporter](https://github.com/microsoft/plcrashreporter)
+            <mark>iOS :</mark> MVVM, RXSwift, AFNetworking, JSONModel, Firebase, Facebook, AppleLogin, Storekit, APNS, Cocoapod, Combine, Alamofire, SwiftUI, XCTest, SPM, Carthage, CoreData, Realm, [plcrashreporter](https://github.com/microsoft/plcrashreporter)
 
             <mark>Golang :</mark> [gin](https://github.com/gin-gonic/gin), [fyne](https://github.com/fyne-io/fyne), goquery, gorm, redigo
       
@@ -88,6 +88,51 @@ content:
         title: Version Control System
         description: | # this will include new lines to allow paragraphs
             SVN, Github, Bitbucket, Gitlab, Bonobo git, Azure DevOps
+
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: iOS 유튜브 영상 검색 앱
+        link: github.com/coolishbee/youtube-channel-filter-ios
+        additional_links:
+          - title:  coolishbee/
+            icon: fab fa-github
+            url: github.com/coolishbee/youtube-channel-filter-ios
+        quote: >
+          Swift + 스토리보드 + xib
+        description: | # this will include new lines to allow paragraphs
+          - Youtube API 연동
+          - RealmSwift 연동
+      
+      - layout: left
+        title: iOS IT회사 정보 검색 앱
+        link: github.com/coolishbee/company-scanner-ios
+        additional_links:
+          - title:  coolishbee/
+            icon: fab fa-github
+            url: github.com/coolishbee/company-scanner-ios
+        quote: >
+          SwiftUI + MapKit + MVVM
+        description: | # this will include new lines to allow paragraphs
+          - MapKit API 연동
+          - CoreData 연동
+          - 네트워크 통신
+
+      - layout: left
+        title: iOS 취미모임 앱
+        link: github.com/coolishbee/
+        additional_links:
+          - title:  coolishbee/
+            icon: fab fa-github
+            url: github.com/coolishbee/
+        quote: >
+          Swift + Snapkit + MVVM + RxSwift
+        description: | # this will include new lines to allow paragraphs
+          - RxSwift
+          - CoreData 연동
+          - 네트워크 통신
 
   - title: Open-source # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,33 +154,7 @@ content:
           - 안드로이드(CustomTabView), iOS(SafariViewController)
           - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)          
           - [Universal SDK Android](https://github.com/coolishbee/universal-sdk-android-kotlin)          
-          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios-swift)      
-      
-      - layout: left
-        title: iOS 유튜브 영상 검색 앱
-        link: github.com/coolishbee/youtube-channel-filter-ios
-        additional_links:
-          - title:  coolishbee/
-            icon: fab fa-github
-            url: github.com/coolishbee/youtube-channel-filter-ios
-        quote: >
-          Swift + 스토리보드 + xib
-        description: | # this will include new lines to allow paragraphs
-          - Youtube API 연동
-          - RealmSwift 연동          
-      
-      - layout: left
-        title: iOS IT회사 정보 검색 앱
-        link: github.com/coolishbee/company-scanner-ios
-        additional_links:
-          - title:  coolishbee/
-            icon: fab fa-github
-            url: github.com/coolishbee/company-scanner-ios
-        quote: >
-          SwiftUI + MapKit + MVVM
-        description: | # this will include new lines to allow paragraphs
-          - MapKit API 연동
-          - CoreData 연동
+          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios-swift)                  
       
       - layout: left
         title: go 백엔드 프레임워크
@@ -151,6 +170,22 @@ content:
           - 소셜 로그인 token 백엔드 검증(구글, 페북, 애플)
           - Logging
           - Swagger 제공
+
+      - layout: left
+        title: simple debug console
+        link: github.com/coolishbee/simple-debug-console-unity
+        additional_links:
+          - title:  coolishbee/
+            icon: fab fa-github
+            url: github.com/coolishbee/simple-debug-console-unity
+        quote: >
+          imgui 를 이용한 런타임 로그뷰어
+        description: | # this will include new lines to allow paragraphs
+          - 모바일 해상도에 맞게 리사이즈
+          - 제스처 지원(스크롤, 열기)
+          - Portrait, Landscape 지원
+          - 16:9, 9:16 고정비율
+          - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/228001)
 
 
   - title: Experience # Title for the section
