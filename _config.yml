@@ -52,12 +52,16 @@ about_content: | # this will include new lines to allow paragraphs
   
   평소 일상생활에서도 개발에 관련해서 고민하고 사용자의 불편함을 개선하는 것을 좋아합니다. 그리고 항상 새로운 기술, 새로운 트렌드를 즐기고 있으며 팀 협업과 커뮤니케이션을 중요하게 생각하는 사람입니다.
 
+  제가 좋아하는 말이 3가지가 있습니다. connected dot(연결된 점), 기도하지말고 행동하라, Stay hungry Stay foolish!
+  모든 일들은 연결된 점과 같다. 과거에 한 일들이 서로 연결되어 현재를 만들어 낸다는 의미입니다.
+  저는 인생의 모든 결정을 항상 실리적인 관점에서 내릴 필요는 없다고 생각합니다. 매 순간 최선을 다했고 순간 순간 필요한 언어를
+
 content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Language                
+        title: Language
         description: | # this will include new lines to allow paragraphs
             C, C++, C#, Objective-C, Golang, Swift, Kotlin
 
@@ -95,9 +99,9 @@ content:
     content:
       - layout: left
         title: iOS 유튜브 영상 검색 앱
-        link: github.com/coolishbee/youtube-channel-filter-ios
+        # link: github.com/coolishbee/youtube-channel-filter-ios
         additional_links:
-          - title:  coolishbee/
+          - title:  youtube-channel-filter-ios
             icon: fab fa-github
             url: github.com/coolishbee/youtube-channel-filter-ios
         quote: >
@@ -108,9 +112,9 @@ content:
       
       - layout: left
         title: iOS IT회사 정보 검색 앱
-        link: github.com/coolishbee/company-scanner-ios
+        # link: github.com/coolishbee/company-scanner-ios
         additional_links:
-          - title:  coolishbee/
+          - title:  company-scanner-ios
             icon: fab fa-github
             url: github.com/coolishbee/company-scanner-ios
         quote: >
@@ -122,11 +126,11 @@ content:
 
       - layout: left
         title: iOS 취미모임 앱
-        link: github.com/coolishbee/
+        # link: github.com/coolishbee/
         additional_links:
-          - title:  coolishbee/
+          - title:  social-crew-iOS
             icon: fab fa-github
-            url: github.com/coolishbee/
+            url: github.com/coolishbee/social-crew-iOS
         quote: >
           Swift + Snapkit + MVVM + RxSwift
         description: | # this will include new lines to allow paragraphs
@@ -139,12 +143,15 @@ content:
     content:
       - layout: left
         title: Universal SDK Unity
-        link: github.com/coolishbee/universal-sdk-unity
+        # link: github.com/coolishbee/universal-sdk-unity
         # link_text: AssetStore
         additional_links:
-          - title: coolishbee/universal-sdk-unity-demo
+          - title: universal-sdk-unity
             icon: fab fa-github
-            url: github.com/coolishbee/universal-sdk-unity-demo
+            url: github.com/coolishbee/universal-sdk-unity
+          - title: universal-sdk-unity
+            icon: fab fa-github
+            url: github.com/coolishbee/universal-sdk-unity
         quote: >
           로그인, 결제, 푸쉬 등 외부 라이브러리들을 통합한 유니티엔진용 SDK
         description: | # this will include new lines to allow paragraphs
@@ -158,9 +165,9 @@ content:
       
       - layout: left
         title: go 백엔드 프레임워크
-        link: github.com/coolishbee/go-gin-sample
+        # link: github.com/coolishbee/go-gin-sample
         additional_links:
-          - title:  coolishbee/
+          - title:  go-gin-sample
             icon: fab fa-github
             url: github.com/coolishbee/go-gin-sample
         quote: >
@@ -170,12 +177,28 @@ content:
           - 소셜 로그인 token 백엔드 검증(구글, 페북, 애플)
           - Logging
           - Swagger 제공
+      
+      - layout: left
+        title: Ads Report Admin
+        # link: github.com/coolishbee/go-gin-sample
+        additional_links:
+          - title:  ads-report-go
+            icon: fab fa-github
+            url: github.com/coolishbee/ads-report-go
+        quote: >
+          광고매체들의 수익보고서 API를 연동한 웹어드민
+        description: | # this will include new lines to allow paragraphs
+          - Unity
+          - Vungle
+          - Iron
+          - Adx
+          - Admob
 
       - layout: left
         title: simple debug console
-        link: github.com/coolishbee/simple-debug-console-unity
+        # link: github.com/coolishbee/simple-debug-console-unity
         additional_links:
-          - title:  coolishbee/
+          - title:  simple-debug-console-unity
             icon: fab fa-github
             url: github.com/coolishbee/simple-debug-console-unity
         quote: >
@@ -187,6 +210,20 @@ content:
           - 16:9, 9:16 고정비율
           - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/228001)
 
+      - layout: left
+        title: simple http client
+        # link: github.com/coolishbee/simple-http-client-unity
+        additional_links:
+          - title:  simple-http-client-unity
+            icon: fab fa-github
+            url: github.com/coolishbee/simple-http-client-unity
+        quote: >
+          UniTask 를 이용한 HTTP Client
+        description: |           
+          - GET, POST, PUT, PATCH 제공
+          - 성공, 실패, 네트워크 에러 이벤트 처리
+          - 이미지 다운로드 제공
+          - 다양한 예제 제공
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -198,21 +235,33 @@ content:
         sub_title: SDK Developer
         caption: 2020.03 ~ 현재
         quote: >
-          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark> <mark>Fastlane</mark>
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark> <mark>Fastlane</mark> <mark>Go</mark> <mark>Docker</mark>
         description: | # this will include new lines to allow paragraphs
-            - Android SDK 개발
-            - iOS SDK 개발
-            - Unity SDK 개발
+            <mark>Android, iOS, Unity SDK 개발</mark>
             - 소셜 로그인(Google, Facebook, Apple)
             - 인앱 결제(Google, Apple, OneStore)
             - Push(FCM, APNS)
             - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample))
             - [Unity Package Export Tool](https://github.com/coolishbee/unity-export-package-tool)
-            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://github.com/coolishbee/docs/blob/main/ci/jenkins-usage.md)
-            - [Unity Editor 를 활용한 빌드머신(feat. shell)](https://github.com/coolishbee/docs/blob/main/unity/unity-build-machine-shell.md)
-            - [Android SDK Jcenter 배포](https://github.com/coolishbee/docs/blob/main/android/jcenter.md)
-            - [Android SDK Maven 배포(Sonatype 을 통한 배포)](https://github.com/coolishbee/docs/blob/main/android/maven-deploy.md)
+            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://coolishbee.github.io/techblog/ci/jenkins-usage/)
+            - [Unity Editor 를 활용한 빌드머신(feat. shell)](https://coolishbee.github.io/techblog/unity/unity-build-machine-shell/)
+            - [Android SDK Jcenter 배포](https://coolishbee.github.io/techblog/android/jcenter/)
+            - [Android SDK Maven 배포(Sonatype 을 통한 배포)](https://coolishbee.github.io/techblog/android/maven-deploy/)
             - [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)
+
+            <mark>Go 서버 개발</mark>
+            - SDK API Go서버 개발(gin, maria, 웹소켓, redis)
+            - 구글, 페북, 애플 로그인 토큰 검증
+            - 구글, 애플, 원스토어 결제 영수증 검증
+            - Push 서버
+            - 로그 서버(mongo, leveldb)
+            - 로그 시스템(Grafana Loki)
+            - SDK Admin 백엔드 개발
+
+            <mark>사내 백오피스 개발</mark>
+            - [개발사와 퍼블리싱 사업부간에 협업 리소스 비용을 줄이기 위한 기능 개발](https://coolishbee.github.io/techblog/ci/jenkins-python/)
+            - 광고매체들의 수익보고서 API를 연동한 웹어드민 개발(사업부 업무효율을 위한 백오피스 지원)
+            - [마케팅 및 매출지표 웹어드민 개발]() row 데이터를 정제 및 가공하여 조회 및 분석이 가능한 파생 데이터 제공                        
 
       - layout: left
         title: 프리랜서
