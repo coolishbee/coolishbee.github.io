@@ -48,13 +48,17 @@ instagram_username: james_cheon7
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs  
-  11년 차 개발자로 PC/모바일 게임 개발과 Android/iOS/Unity SDK 개발을 해왔습니다. 현재는 <mark>Android, iOS, Unity SDK</mark>를 개발 중이며, 언어는 Java, Kotlin, Objc, Swift, C# 를 사용하고 있습니다.
-  
+  11년 차 개발자로 PC/모바일 게임 개발과 Android/iOS/Unity SDK 개발을 해왔습니다. 현재는 <mark>Android, iOS, Unity SDK</mark>를 개발 중이며, 언어는 Java, Kotlin, Objc, Swift, C# 를 사용하고 있습니다.  
   평소 일상생활에서도 개발에 관련해서 고민하고 사용자의 불편함을 개선하는 것을 좋아합니다. 그리고 항상 새로운 기술, 새로운 트렌드를 즐기고 있으며 팀 협업과 커뮤니케이션을 중요하게 생각하는 사람입니다.
 
-  제가 좋아하는 말이 3가지가 있습니다. connected dot(연결된 점), 기도하지말고 행동하라, Stay hungry Stay foolish!
-  모든 일들은 연결된 점과 같다. 과거에 한 일들이 서로 연결되어 현재를 만들어 낸다는 의미입니다.
-  저는 인생의 모든 결정을 항상 실리적인 관점에서 내릴 필요는 없다고 생각합니다. 매 순간 최선을 다했고 순간 순간 필요한 언어를
+  제가 좋아하는 말중 하나는 connected dot(연결된 점) 입니다.  
+  모든 일들은 연결된 점과 같다. 과거에 한 일들이 서로 연결되어 현재를 만들어 낸다는 의미입니다. 이런 일들을 실제로 경험했었고 지금 이 순간에도 매번 증명하고 있습니다.
+  그러므로 저는 인생의 모든 결정을 항상 실리적인 관점에서 내릴 필요는 없다고 생각합니다. 
+  매 순간 주어진 환경(상황)에서 최선을 다한다면 언젠가 그 일이 가치있는 일이 될거라 확신하기 때문입니다.
+
+  그리고 약 1-2년 전부터 오픈소스 활동을 하게 되었는데 계기는 많은 개발자들과 협업할 기회가 적어서 방법을 찾다 보니 시작하게 되었고
+  제가 만든 것들을 꼭 필요한 사람들이 단 한 명만이라도 쓴다면 그게 얼마나 의미 있는 일이란 것을 알게 됐기 때문입니다.
+  세상의 변화를 직접 만들어갈 수 있는 직업군 중 하나가 개발자라고 생각하고 그것이 얼마나 가치 있는 일인지 경험하고 있습니다.
 
 content:
   - title: Skills # Title for the section
@@ -110,33 +114,33 @@ content:
           - Youtube API 연동
           - RealmSwift 연동
       
-      - layout: left
-        title: iOS IT회사 정보 검색 앱
-        # link: github.com/coolishbee/company-scanner-ios
-        additional_links:
-          - title:  company-scanner-ios
-            icon: fab fa-github
-            url: github.com/coolishbee/company-scanner-ios
-        quote: >
-          SwiftUI + MapKit + MVVM
-        description: | # this will include new lines to allow paragraphs
-          - MapKit API 연동
-          - CoreData 연동
-          - 네트워크 통신
+      # - layout: left
+      #   title: iOS IT회사 정보 검색 앱
+      #   # link: github.com/coolishbee/company-scanner-ios
+      #   additional_links:
+      #     - title:  company-scanner-ios
+      #       icon: fab fa-github
+      #       url: github.com/coolishbee/company-scanner-ios
+      #   quote: >
+      #     SwiftUI + MapKit + MVVM
+      #   description: | # this will include new lines to allow paragraphs
+      #     - MapKit API 연동
+      #     - CoreData 연동
+      #     - 네트워크 통신
 
-      - layout: left
-        title: iOS 취미모임 앱
-        # link: github.com/coolishbee/
-        additional_links:
-          - title:  social-crew-iOS
-            icon: fab fa-github
-            url: github.com/coolishbee/social-crew-iOS
-        quote: >
-          Swift + Snapkit + MVVM + RxSwift
-        description: | # this will include new lines to allow paragraphs
-          - RxSwift
-          - CoreData 연동
-          - 네트워크 통신
+      # - layout: left
+      #   title: iOS 취미모임 앱
+      #   # link: github.com/coolishbee/
+      #   additional_links:
+      #     - title:  social-crew-iOS
+      #       icon: fab fa-github
+      #       url: github.com/coolishbee/social-crew-iOS
+      #   quote: >
+      #     Swift + Snapkit + MVVM + RxSwift
+      #   description: | # this will include new lines to allow paragraphs
+      #     - RxSwift
+      #     - CoreData 연동
+      #     - 네트워크 통신
 
   - title: Open-source # Title for the section
     layout: list # Type of content section (list/text)
@@ -149,50 +153,17 @@ content:
           - title: universal-sdk-unity
             icon: fab fa-github
             url: github.com/coolishbee/universal-sdk-unity
-          - title: universal-sdk-unity
+          - title: universal-sdk-unity-demo
             icon: fab fa-github
-            url: github.com/coolishbee/universal-sdk-unity
+            url: github.com/coolishbee/universal-sdk-unity-demo
         quote: >
           로그인, 결제, 푸쉬 등 외부 라이브러리들을 통합한 유니티엔진용 SDK
         description: | # this will include new lines to allow paragraphs
-          - 소셜 로그인(Google, Facebook, Apple)
-          - 인앱 결제(Google, Apple)
-          - Push(FCM, APNS)
+          - 소셜 로그인(Google, Facebook, Apple)          
           - 안드로이드(CustomTabView), iOS(SafariViewController)
           - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)          
-          - [Universal SDK Android](https://github.com/coolishbee/universal-sdk-android-kotlin)          
-          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios-swift)                  
-      
-      - layout: left
-        title: go 백엔드 프레임워크
-        # link: github.com/coolishbee/go-gin-sample
-        additional_links:
-          - title:  go-gin-sample
-            icon: fab fa-github
-            url: github.com/coolishbee/go-gin-sample
-        quote: >
-          golang + gin + swagger + mariadb sample
-        description: | # this will include new lines to allow paragraphs
-          - RESTful API
-          - 소셜 로그인 token 백엔드 검증(구글, 페북, 애플)
-          - Logging
-          - Swagger 제공
-      
-      - layout: left
-        title: Ads Report Admin
-        # link: github.com/coolishbee/go-gin-sample
-        additional_links:
-          - title:  ads-report-go
-            icon: fab fa-github
-            url: github.com/coolishbee/ads-report-go
-        quote: >
-          광고매체들의 수익보고서 API를 연동한 웹어드민
-        description: | # this will include new lines to allow paragraphs
-          - Unity
-          - Vungle
-          - Iron
-          - Adx
-          - Admob
+          - Universal SDK Android
+          - Universal SDK iOS
 
       - layout: left
         title: simple debug console
@@ -225,6 +196,32 @@ content:
           - 이미지 다운로드 제공
           - 다양한 예제 제공
 
+      - layout: left
+        title: go iap onestore
+        
+        additional_links:
+          - title:  go-iap-onestore
+            icon: fab fa-github
+            url: github.com/coolishbee/go-iap-onestore
+        quote: >
+          원스토어 서버 API
+        description: |           
+          - OAuth 인증
+          - 결제 영수증 검증
+
+      - layout: left
+        title: go iap playstore
+        
+        additional_links:
+          - title:  go-iap-playstore
+            icon: fab fa-github
+            url: github.com/coolishbee/go-iap-playstore
+        quote: >
+          구글스토어 서버 API
+        description: |           
+          - OAuth 인증
+          - 환불목록 조회 API
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -237,31 +234,31 @@ content:
         quote: >
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark> <mark>Fastlane</mark> <mark>Go</mark> <mark>Docker</mark>
         description: | # this will include new lines to allow paragraphs
-            <mark>Android, iOS, Unity SDK 개발</mark>
+            <mark>Gamepub SDK 개발</mark>
+            - [Android, iOS, Unity SDK 개발](https://coolishbee.github.io/techblog/project/gamepub-sdk/)
             - 소셜 로그인(Google, Facebook, Apple)
             - 인앱 결제(Google, Apple, OneStore)
             - Push(FCM, APNS)
             - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample))
             - [Unity Package Export Tool](https://github.com/coolishbee/unity-export-package-tool)
-            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://coolishbee.github.io/techblog/ci/jenkins-usage/)
+            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://coolishbee.github.io/techblog/project/jenkins-sdk-build-deploy/)
             - [Unity Editor 를 활용한 빌드머신(feat. shell)](https://coolishbee.github.io/techblog/unity/unity-build-machine-shell/)
             - [Android SDK Jcenter 배포](https://coolishbee.github.io/techblog/android/jcenter/)
             - [Android SDK Maven 배포(Sonatype 을 통한 배포)](https://coolishbee.github.io/techblog/android/maven-deploy/)
             - [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)
 
-            <mark>Go 서버 개발</mark>
-            - SDK API Go서버 개발(gin, maria, 웹소켓, redis)
+            <mark>SDK 서버 개발</mark>
+            - [API Go 서버 개발](https://coolishbee.github.io/techblog/project/api-admin-server/)(gin, maria, 웹소켓, redis 연동)
             - 구글, 페북, 애플 로그인 토큰 검증
             - 구글, 애플, 원스토어 결제 영수증 검증
-            - Push 서버
-            - 로그 서버(mongo, leveldb)
-            - 로그 시스템(Grafana Loki)
-            - SDK Admin 백엔드 개발
+            - Redis를 이용한 유저 데이터 관리
+            - [Push 서버](https://coolishbee.github.io/techblog/project/push-server/)
+            - [로그 시스템](https://coolishbee.github.io/techblog/project/grafana-loki/)(Grafana Loki)
 
             <mark>사내 백오피스 개발</mark>
-            - [개발사와 퍼블리싱 사업부간에 협업 리소스 비용을 줄이기 위한 기능 개발](https://coolishbee.github.io/techblog/ci/jenkins-python/)
-            - 광고매체들의 수익보고서 API를 연동한 웹어드민 개발(사업부 업무효율을 위한 백오피스 지원)
-            - [마케팅 및 매출지표 웹어드민 개발]() row 데이터를 정제 및 가공하여 조회 및 분석이 가능한 파생 데이터 제공                        
+            - [게임서비스 관련 스케쥴러](https://coolishbee.github.io/techblog/project/jenkins-python/)
+            - [광고수익 보고서](https://coolishbee.github.io/techblog/project/ad-report-admin/)
+            - [Adjust 마케팅 지표](https://coolishbee.github.io/techblog/project/adjust-data-admin/)
 
       - layout: left
         title: 프리랜서
