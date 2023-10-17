@@ -165,7 +165,7 @@ content:
           - 안드로이드(CustomTabView), iOS(SafariViewController)
           - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)          
           - Universal SDK Android
-          - Universal SDK iOS
+          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios-swift)
 
       - layout: left
         title: simple debug console
@@ -250,7 +250,7 @@ content:
             - [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)
 
             <mark>SDK 서버 개발</mark>
-            - [API Go 서버 개발](https://coolishbee.github.io/techblog/project/api-admin-server/)(gin, maria, 웹소켓, redis 연동)
+            - [API Go 서버 개발](https://coolishbee.github.io/techblog/project/sdk-api-server/)
             - 구글, 페북, 애플 로그인 토큰 검증
             - 구글, 애플, 원스토어 결제 영수증 검증
             - Redis를 이용한 유저 데이터 관리
