@@ -9,7 +9,7 @@ version: 2
 name: 천현철
 title: 소프트웨어 엔지니어
 email: chc3484@gmail.com
-website: velog.io/@james-chun-dev
+website: coolishbee.github.io/techblog
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -21,7 +21,7 @@ github_username:  coolishbee
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: james_cheon7
+instagram_username: coolishbee
 # linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
