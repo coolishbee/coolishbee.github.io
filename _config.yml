@@ -232,7 +232,7 @@ content:
         link: gamepub.co.kr
         # link_text: boringcompany.com
         sub_title: SDK Developer
-        caption: 2020.03 ~ 현재
+        caption: 2020.03 ~ 2023.07
         quote: >
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark> <mark>Fastlane</mark> <mark>Go</mark> <mark>Docker</mark>
         description: | # this will include new lines to allow paragraphs
