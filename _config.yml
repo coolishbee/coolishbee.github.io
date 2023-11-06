@@ -327,7 +327,7 @@ content:
         quote: >
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Github</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>Xcode</mark> <mark>EZGUI</mark> <mark>Confluence</mark>
         description: | # this will include new lines to allow paragraphs
-            - Google, AppStore, OneStore, WebPlayer 빌드 배포 및 서비스
+            - [삼국지를 품다](https://youtu.be/jPAnCZH47LI?si=Y-EyNWpwyNwg-xbA) Google, AppStore, OneStore, WebPlayer 빌드 배포 및 서비스
             - 대만 로컬라이징 및 신규런칭(마이카드 연동)
             - Jenkins Slave Node 를 활용한 유니티iOS 빌드 자동화 구축
             - HTTP Manager 개발
@@ -343,9 +343,9 @@ content:
         quote: >
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>SVN</mark> <mark>Python</mark> <mark>VS2015</mark> <mark>Xcode</mark> <mark>NGUI</mark> <mark>Mantis</mark>
         description: | # this will include new lines to allow paragraphs
-            - Android 이란 [바자르(로컬마켓)](https://developers.cafebazaar.ir/en/) 런칭
+            - [캡슐풋볼매니저](https://youtu.be/tp-BhJnaG6E?si=mvMrQXhhp17DyYfj) Android 이란 [바자르(로컬마켓)](https://developers.cafebazaar.ir/en/) 런칭
             - 이란 로컬라이징 및 SDK 연동
-            - Data System
+            - Data System 리팩토링
             - Jenkins 를 이용한 유니티 빌드 자동화 구축
             - UI System 리팩토링
             - 컨텐츠 개발
@@ -359,7 +359,7 @@ content:
         quote: >
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Github</mark> <mark>Python</mark> <mark>VisualStudio</mark> <mark>Xcode</mark> <mark>JIRA</mark> <mark>Slack</mark> <mark>Trello</mark> <mark>NGUI</mark> <mark>Prime31</mark> <mark>Sublime Text</mark>
         description: | # this will include new lines to allow paragraphs
-            - Android, iOS 빌드배포 및 서비스(워스토리, 킹덤스토리)
+            - Android, iOS 빌드배포 및 서비스([워스토리](https://youtu.be/9fU7E_xth7w?si=E2sAsWGBLwDlbp2p), [킹덤스토리](https://youtu.be/jfQkQ4QGpbw?si=pxaggM0mXzh9wg7-))
             - Hudson 빌드시스템 유지보수 및 Jenkins 를 이용한 에셋번들 빌드 자동화
             - Python으로 dSYM 파일서버로 업로드 스크립트 개발
             - 컨텐츠 개발
@@ -375,7 +375,7 @@ content:
         quote: >
           <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>ZerodinEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>VS2008</mark> <mark>IOCP</mark>
         description: | # this will include new lines to allow paragraphs
-            - 불패온라인 국내 라이브, 태국 서비스 런칭
+            - [불패온라인](https://youtu.be/dr72v1nc5Rc?si=ZuBpoAtBx4MMhqFL) 국내 라이브, 태국 서비스 런칭
             - 잭팟 시스템, 1:1 pvp 시스템, 아이템 교환시스템
             - 태국 로컬라이징
             - 패치 시스템
@@ -389,7 +389,7 @@ content:
         quote: >
           <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>RideEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Gantt</mark> <mark>VS2008</mark> <mark>IOCP</mark>
         description: | # this will include new lines to allow paragraphs
-            - 붉은보석2 온라인 신규개발
+            - [붉은보석2](https://youtu.be/Icc5gCXHhhY?si=S2--XD47octdZVgw) 온라인 신규개발
             - Tooltip, Skill UI, 시스템옵션
             - UI Engine 및 Tool 개선
             - Drop Item 개발
