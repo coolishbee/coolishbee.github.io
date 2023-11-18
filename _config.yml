@@ -165,7 +165,7 @@ content:
           - 안드로이드(CustomTabView), iOS(SafariViewController)
           - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)          
           - Universal SDK Android
-          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios-swift)
+          - Universal SDK iOS
 
       - layout: left
         title: simple debug console
