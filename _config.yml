@@ -113,8 +113,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Youtube API
           - RealmSwift
-          - RxSwift
+          - Combine
           - Dark Mode 지원
+          - Video Player
       
       # - layout: left
       #   title: iOS IT회사 정보 검색 앱
@@ -159,7 +160,7 @@ content:
             icon: fab fa-github
             url: github.com/coolishbee/universal-sdk-unity-demo
         quote: >
-          로그인, 결제, 푸쉬 등 외부 라이브러리들을 통합한 유니티엔진용 SDK
+          소셜 로그인같은 외부 라이브러리들을 통합한 유니티엔진용 SDK
         description: | # this will include new lines to allow paragraphs
           - 소셜 로그인(Google, Facebook, Apple)          
           - 안드로이드(CustomTabView), iOS(SafariViewController)
@@ -238,8 +239,8 @@ content:
         description: | # this will include new lines to allow paragraphs
             <mark>Gamepub SDK 개발</mark>
             - [Android, iOS, Unity SDK 개발](https://coolishbee.github.io/techblog/project/gamepub-sdk/)
-            - 소셜 로그인(Google, Facebook, Apple)
-            - 인앱 결제(Google, Apple, OneStore)
+            - 소셜 로그인(Google, Facebook, Apple) 및 서버사이드 로그인 검증(Google, Facebook, Apple)
+            - 인앱 결제(Google, Apple, OneStore, GalaxyStore)
             - Push(FCM, APNS)
             - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample))
             - [Unity Package Export Tool](https://github.com/coolishbee/unity-export-package-tool)
@@ -251,8 +252,8 @@ content:
 
             <mark>SDK 서버 개발</mark>
             - [API Go 서버 개발](https://coolishbee.github.io/techblog/project/sdk-api-server/)
-            - 구글, 페북, 애플 로그인 토큰 검증
-            - 구글, 애플, 원스토어 결제 영수증 검증
+            - 소셜 로그인 토큰 검증(Google, Facebook, Apple)
+            - 인앱 결제 영수증 검증(Google, Apple, [OneStore](https://github.com/coolishbee/go-iap-onestore), [GalaxyStore](https://github.com/coolishbee/go-iap-galaxy))
             - Redis를 이용한 유저 데이터 관리
             - [Push 서버](https://coolishbee.github.io/techblog/project/push-server/)
             - [로그 시스템](https://coolishbee.github.io/techblog/project/grafana-loki/)(Grafana Loki)
