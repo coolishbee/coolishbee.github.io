@@ -117,19 +117,19 @@ content:
           - Dark Mode 지원
           - Video Player
       
-      # - layout: left
-      #   title: iOS IT회사 정보 검색 앱
-      #   # link: github.com/coolishbee/company-scanner-ios
-      #   additional_links:
-      #     - title:  company-scanner-ios
-      #       icon: fab fa-github
-      #       url: github.com/coolishbee/company-scanner-ios
-      #   quote: >
-      #     SwiftUI + MapKit + MVVM
-      #   description: | # this will include new lines to allow paragraphs
-      #     - MapKit API 연동
-      #     - CoreData 연동
-      #     - 네트워크 통신
+      - layout: left
+        title: iOS IT회사 정보 검색 앱
+        # link: github.com/coolishbee/Company-Scanner-SwiftUI
+        additional_links:
+          - title:  Company-Scanner-SwiftUI
+            icon: fab fa-github
+            url: github.com/coolishbee/Company-Scanner-SwiftUI
+        quote: >
+          SwiftUI + MapKit + Combine
+        description: | # this will include new lines to allow paragraphs
+          - MapKit API 연동
+      #    - CoreData 연동
+      #    - 네트워크 통신
 
       # - layout: left
       #   title: iOS 취미모임 앱
@@ -162,11 +162,11 @@ content:
         quote: >
           소셜 로그인같은 외부 라이브러리들을 통합한 유니티엔진용 SDK
         description: | # this will include new lines to allow paragraphs
-          - 소셜 로그인(Google, Facebook, Apple)          
+          - 소셜 로그인(Google, Facebook, Apple)
           - 안드로이드(CustomTabView), iOS(SafariViewController)
           - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)          
-          - Universal SDK Android
-          - Universal SDK iOS
+          - [Universal SDK Android](https://github.com/coolishbee/universal-sdk-android)
+          - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios)
 
       - layout: left
         title: simple debug console
