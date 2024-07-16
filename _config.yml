@@ -239,7 +239,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             <mark>Gamepub SDK 개발</mark>
             - [Android, iOS, Unity SDK 개발](https://coolishbee.github.io/techblog/project/gamepub-sdk/)
-            - 소셜 로그인(Google, Facebook, Apple) 및 서버사이드 로그인 검증(Google, Facebook, Apple)
+            - 소셜 로그인(Google, Facebook, Apple)
             - 인앱 결제(Google, Apple, OneStore, GalaxyStore)
             - Push(FCM, APNS)
             - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample))
