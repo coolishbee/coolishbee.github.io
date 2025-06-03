@@ -97,54 +97,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             SVN, Github, Bitbucket, Gitlab, Bonobo git, Azure DevOps
 
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: iOS 유튜브 영상 검색 앱
-        # link: github.com/coolishbee/youtube-channel-filter-ios
-        additional_links:
-          - title: youtube-filter-swift
-            icon: fab fa-github
-            url: github.com/coolishbee/youtube-filter-swift
-        quote: >
-          Swift + CodebaseUI + xib
-        description: | # this will include new lines to allow paragraphs
-          - Youtube API
-          - RealmSwift
-          - Combine
-          - Dark Mode 지원
-          - Video Player
-      
-      - layout: left
-        title: iOS IT회사 정보 검색 앱
-        # link: github.com/coolishbee/Company-Scanner-SwiftUI
-        additional_links:
-          - title:  Company-Scanner-SwiftUI
-            icon: fab fa-github
-            url: github.com/coolishbee/Company-Scanner-SwiftUI
-        quote: >
-          SwiftUI + MapKit + Combine
-        description: | # this will include new lines to allow paragraphs
-          - MapKit API 연동
-      #    - CoreData 연동
-      #    - 네트워크 통신
-
-      # - layout: left
-      #   title: iOS 취미모임 앱
-      #   # link: github.com/coolishbee/
-      #   additional_links:
-      #     - title:  social-crew-iOS
-      #       icon: fab fa-github
-      #       url: github.com/coolishbee/social-crew-iOS
-      #   quote: >
-      #     Swift + Snapkit + MVVM + RxSwift
-      #   description: | # this will include new lines to allow paragraphs
-      #     - RxSwift
-      #     - CoreData 연동
-      #     - 네트워크 통신
-
+ 
   - title: Open-source # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -248,15 +201,7 @@ content:
             - [Unity Editor 를 활용한 빌드머신(feat. shell)](https://coolishbee.github.io/techblog/unity/unity-build-machine-shell/)
             - [Android SDK Jcenter 배포](https://coolishbee.github.io/techblog/android/jcenter/)
             - [Android SDK Maven 배포(Sonatype 을 통한 배포)](https://coolishbee.github.io/techblog/android/maven-deploy/)
-            - [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)
-
-            <mark>SDK 서버 개발</mark>
-            - [API Go 서버 개발](https://coolishbee.github.io/techblog/project/sdk-api-server/)
-            - 소셜 로그인 토큰 검증(Google, Facebook, Apple)
-            - 인앱 결제 영수증 검증(Google, Apple, [OneStore](https://github.com/coolishbee/go-iap-onestore), [GalaxyStore](https://github.com/coolishbee/go-iap-galaxy))
-            - Redis를 이용한 유저 데이터 관리
-            - [Push 서버](https://coolishbee.github.io/techblog/project/push-server/)
-            - [로그 시스템](https://coolishbee.github.io/techblog/project/grafana-loki/)(Grafana Loki)
+            - [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)            
 
             <mark>사내 백오피스 개발</mark>
             - [게임서비스 관련 스케쥴러](https://coolishbee.github.io/techblog/project/jenkins-python/)
