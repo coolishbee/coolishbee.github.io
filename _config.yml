@@ -182,6 +182,35 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 111퍼센트
+        sub_title: 플랫폼 클라이언트 개발자
+        caption: 2024.08 ~ 현재
+        quote: >
+          <mark>Unity</mark> <mark>C#</mark> <mark>Android</mark> <mark>iOS</mark> <mark>SDK</mark> <mark>Framework</mark>
+        description: | # this will include new lines to allow paragraphs
+            <mark>공용 SDK 및 게임 프레임워크 개발</mark>
+            - 111퍼센트 게임 전반에서 사용하는 공용 SDK 설계 및 개발
+            - 인증, 결제, 광고, 로깅, 빌드, 패키지 개발
+            - 유니티 앱링크·유니버설 링크 지원 공용 패키지 개발
+            - 게임 프레임워크 개발
+            - Unity 최적화 및 기술 지원
+            - [Unity 딥링크 트러블슈팅](https://coolishbee.github.io/techblog/unity/unity-deeplink/)
+            - [Android 16KB 페이지 크기 대응](https://coolishbee.github.io/techblog/unity/android-16kb-page-size/)
+
+            <mark>통합 플랫폼 SDK 개발</mark>
+            - 유니티·안드로이드·iOS를 지원하는 통합 플랫폼 개발 도구 모음 설계·개발 및 운영
+            - 인증·결제·푸시 등 게임 공통 기능과 플랫폼 연동 모듈 개발
+            - 유니티와 안드로이드·iOS 네이티브 간 연동 구조 및 공통 인터페이스 설계
+            - 운영체제·단말·유니티 버전에 따른 호환성 문제 분석 및 대응
+            - 개발 도구 모음의 빌드·배포·버전 관리와 하위 호환성 유지, 지속적인 품질 개선
+
+            <mark>주요 성과</mark>
+            - 빌드 안정화로 배포 신뢰성 향상
+            - 재사용 가능한 공통 모듈 개발
+            - 운빨존많겜·협동타워디펜스 빌드 장애 대응 및 배포 안정화
+            - FCM 기반 클라이언트·서버 공용 모듈 개발 및 푸시 API 연동
+
+      - layout: left
         title: 게임펍
         link: gamepub.co.kr
         # link_text: boringcompany.com
