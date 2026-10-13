@@ -9,7 +9,7 @@ version: 2
 name: 천현철
 title: 소프트웨어 엔지니어
 email: chc3484@gmail.com
-website: coolishbee.github.io/techblog
+website: coolishbee.github.io/devlog
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -48,7 +48,7 @@ instagram_username: coolishbee
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs  
-  11년 차 개발자로 PC/모바일 게임 개발과 Android/iOS/Unity SDK 개발을 해왔습니다. 최근까지 <mark>Android, iOS, Unity SDK</mark>를 개발 했었으며, 언어는 Java, Kotlin, Objc, Swift, C# 를 사용했습니다.
+  PC·모바일 게임과 Android·iOS·Unity SDK를 개발해 온 소프트웨어 엔지니어입니다. 최근까지 <mark>Android, iOS, Unity SDK</mark>를 개발 했었으며, 언어는 Java, Kotlin, Objc, Swift, C# 를 사용했습니다.
   평소 일상생활에서도 개발에 관련해서 고민하고 사용자의 불편함을 개선하는 것을 좋아합니다. 그리고 항상 새로운 기술, 새로운 트렌드를 즐기고 있으며 팀 협업과 커뮤니케이션을 중요하게 생각하는 사람입니다.
 
   제가 좋아하는 말중 하나는 connected dot(연결된 점) 입니다.  
@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
   그러므로 저는 인생의 모든 결정을 항상 실리적인 관점에서 내릴 필요는 없다고 생각합니다. 
   매 순간 주어진 환경(상황)에서 최선을 다한다면 언젠가 그 일이 가치있는 일이 될거라 확신하기 때문입니다.
 
-  그리고 약 1-2년 전부터 오픈소스 활동을 하게 되었는데 계기는 많은 개발자들과 협업할 기회가 적어서 방법을 찾다 보니 시작하게 되었고
+  오픈소스 활동을 시작한 계기는 다양한 개발자들과 협업할 기회를 찾기 위해서였습니다.
   제가 만든 것들을 꼭 필요한 사람들이 단 한 명만이라도 쓴다면 그게 얼마나 의미 있는 일이란 것을 알게 되었습니다.
   세상의 변화를 직접 만들어갈 수 있는 직업군 중 하나가 개발자라고 생각하고 그것이 얼마나 가치 있는 일인지 경험하고 있습니다.
 
@@ -188,27 +188,24 @@ content:
         quote: >
           <mark>Unity</mark> <mark>C#</mark> <mark>Android</mark> <mark>iOS</mark> <mark>SDK</mark> <mark>Framework</mark>
         description: | # this will include new lines to allow paragraphs
-            <mark>공용 SDK 및 게임 프레임워크 개발</mark>
-            - 111퍼센트 게임 전반에서 사용하는 공용 SDK 설계 및 개발
-            - 인증, 결제, 광고, 로깅, 빌드, 패키지 개발
-            - 유니티 앱링크·유니버설 링크 지원 공용 패키지 개발
-            - 게임 프레임워크 개발
-            - Unity 최적화 및 기술 지원
-            - [Unity 딥링크 트러블슈팅](https://coolishbee.github.io/techblog/unity/unity-deeplink/)
-            - [Android 16KB 페이지 크기 대응](https://coolishbee.github.io/techblog/unity/android-16kb-page-size/)
+            <mark>공용 서비스 개발 도구</mark>
+            - 로그인, 유저동의, 결제, 광고, 로깅, 빌드 패키지 유지보수
+            - Android/iOS WebView 기반 Unity SDK 개발
+            - Unity 딥링크(App Links/Universal Links) SDK 개발
+            - Unity 앱 아이콘/앱 이름 로컬라이징 SDK 개발
+            - DocFX 기반 SDK 문서 자동화 도구 개발
 
-            <mark>통합 플랫폼 SDK 개발</mark>
-            - 유니티·안드로이드·iOS를 지원하는 통합 플랫폼 개발 도구 모음 설계·개발 및 운영
-            - 인증·결제·푸시 등 게임 공통 기능과 플랫폼 연동 모듈 개발
-            - 유니티와 안드로이드·iOS 네이티브 간 연동 구조 및 공통 인터페이스 설계
-            - 운영체제·단말·유니티 버전에 따른 호환성 문제 분석 및 대응
-            - 개발 도구 모음의 빌드·배포·버전 관리와 하위 호환성 유지, 지속적인 품질 개선
+            <mark>통합 플랫폼 개발 도구</mark>
+            - 로그인, 결제, 동의, 광고, 데이터 수집 API
+            - 플랫폼 관련 공용 UI(로그인, 유저동의, 계정연동, 계정이전)
+            - 웹뷰 기반 커뮤니티(공지사항, 문의, 쿠폰)
+            - SDK 설정용 에디터 툴 개발
+            - 샘플앱 개발
 
-            <mark>주요 성과</mark>
-            - 빌드 안정화로 배포 신뢰성 향상
-            - 재사용 가능한 공통 모듈 개발
-            - 운빨존많겜·협동타워디펜스 빌드 장애 대응 및 배포 안정화
-            - FCM 기반 클라이언트·서버 공용 모듈 개발 및 푸시 API 연동
+            <mark>기술 지원</mark>
+            - [Unity 딥링크 트러블슈팅](https://coolishbee.github.io/devlog/posts/unity/unity-deeplink/)
+            - [Android 16KB 페이지 크기 대응](https://coolishbee.github.io/devlog/posts/unity/android-16kb-page-size/)
+            - Jenkins 빌드 장애 대응 및 배포 안정화
 
       - layout: left
         title: 게임펍
@@ -220,22 +217,22 @@ content:
           <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark> <mark>Fastlane</mark> <mark>Go</mark> <mark>Docker</mark>
         description: | # this will include new lines to allow paragraphs
             <mark>Gamepub SDK 개발</mark>
-            - [Android, iOS, Unity SDK 개발](https://coolishbee.github.io/techblog/project/gamepub-sdk/)
+            - [Android, iOS, Unity SDK 개발](https://coolishbee.github.io/devlog/posts/project/gamepub-sdk/)
             - 소셜 로그인(Google, Facebook, Apple)
             - 인앱 결제(Google, Apple, OneStore, GalaxyStore)
             - Push(FCM, APNS)
             - 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample))
             - [Unity Package Export Tool](https://github.com/coolishbee/unity-export-package-tool)
-            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://coolishbee.github.io/techblog/project/jenkins-sdk-build-deploy/)
-            - [Unity Editor 를 활용한 빌드머신(feat. shell)](https://coolishbee.github.io/techblog/unity/unity-build-machine-shell/)
-            - [Android SDK Jcenter 배포](https://coolishbee.github.io/techblog/android/jcenter/)
-            - [Android SDK Maven 배포(Sonatype 을 통한 배포)](https://coolishbee.github.io/techblog/android/maven-deploy/)
+            - [fastlane과 Jenkins를 이용한 SDK 배포 자동화](https://coolishbee.github.io/devlog/posts/project/jenkins-sdk-build-deploy/)
+            - [Unity Editor 를 활용한 빌드머신(feat. shell)](https://coolishbee.github.io/devlog/posts/unity/unity-build-machine-shell/)
+            - [Android SDK Jcenter 배포](https://coolishbee.github.io/devlog/posts/android/jcenter/)
+            - [Android SDK Maven 배포(Sonatype 을 통한 배포)](https://coolishbee.github.io/devlog/posts/android/maven-deploy/)
             - [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)            
 
             <mark>사내 백오피스 개발</mark>
-            - [게임서비스 관련 스케쥴러](https://coolishbee.github.io/techblog/project/jenkins-python/)
-            - [광고수익 보고서](https://coolishbee.github.io/techblog/project/ad-report-admin/)
-            - [Adjust 마케팅 지표](https://coolishbee.github.io/techblog/project/adjust-data-admin/)
+            - [게임서비스 관련 스케쥴러](https://coolishbee.github.io/devlog/posts/project/jenkins-python/)
+            - [광고수익 보고서](https://coolishbee.github.io/devlog/posts/project/ad-report-admin/)
+            - [Adjust 마케팅 지표](https://coolishbee.github.io/devlog/posts/project/adjust-data-admin/)
 
       - layout: left
         title: 프리랜서
