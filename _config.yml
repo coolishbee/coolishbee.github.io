@@ -186,7 +186,7 @@ content:
         sub_title: 플랫폼 클라이언트 개발자
         caption: 2024.08 ~ 현재
         quote: >
-          <mark>Unity</mark> <mark>C#</mark> <mark>Android</mark> <mark>iOS</mark> <mark>SDK</mark> <mark>Framework</mark>
+          <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>.NET</mark> <mark>Gradle</mark> <mark>CocoaPods</mark> <mark>Fastlane</mark> <mark>Go</mark>
         description: | # this will include new lines to allow paragraphs
             <mark>공용 서비스 개발 도구</mark>
             - 로그인, 유저동의, 결제, 광고, 로깅, 빌드 패키지 유지보수
